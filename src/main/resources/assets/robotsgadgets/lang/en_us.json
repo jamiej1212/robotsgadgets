@@ -1,0 +1,14 @@
+{
+  "creativetab.item_gadgets_tab": "로봇의 잡동사니",
+  "item.robotsgadgets.modicon01": "Robot's Portrait",
+  "item.robotsgadgets.onebot": "1 Bot",
+  "item.robotsgadgets.fivebot": "5 Bot",
+  "item.robotsgadgets.tenbot": "10 Bot",
+  "item.robotsgadgets.fiftybot": "50 Bot",
+  "item.robotsgadgets.tpticket": "TP Ticket",
+
+
+  "block.robotsgadgets.gold_block": "Gold Block",
+  "block.robotsgadgets.birch_log": "Birch Log",
+  "block.robotsgadgets.brown_brick": "Light Brown Bricks"
+}

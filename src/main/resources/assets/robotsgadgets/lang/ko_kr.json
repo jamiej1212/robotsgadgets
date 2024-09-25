@@ -1,0 +1,13 @@
+{
+  "creativetab.item_gadgets_tab": "로봇의 잡동사니",
+  "item.robotsgadgets.modicon01": "로봇 초상화",
+  "item.robotsgadgets.onebot": "1 봇",
+  "item.robotsgadgets.fivebot": "5 봇",
+  "item.robotsgadgets.tenbot": "10 봇",
+  "item.robotsgadgets.fiftybot": "50 봇",
+  "item.robotsgadgets.tpticket": "텔레포트 티켓",
+
+  "block.robotsgadgets.gold_block": "골드 블럭",
+  "block.robotsgadgets.birch_log": "자작나무 블럭",
+  "block.robotsgadgets.brown_brick": "라이트 브라운 벽돌"
+}
