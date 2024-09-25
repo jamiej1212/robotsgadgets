@@ -1,6 +1,9 @@
 package com.trextherobot.robotsgadgets;
 
 import com.mojang.logging.LogUtils;
+import com.trextherobot.robotsgadgets.items.GadgetsTab;
+import com.trextherobot.robotsgadgets.items.ItemGadgets;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -23,6 +26,12 @@ public class RobotsGadgets
     public RobotsGadgets()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        // Register CT
+        GadgetsTab.register(modEventBus);
+
+        // Register items
+        ItemGadgets.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
