@@ -4,7 +4,6 @@ import com.mojang.logging.LogUtils;
 import com.trextherobot.robotsgadgets.blocks.BlockGadgets;
 import com.trextherobot.robotsgadgets.items.GadgetsTab;
 import com.trextherobot.robotsgadgets.items.ItemGadgets;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
